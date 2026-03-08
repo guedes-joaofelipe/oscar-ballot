@@ -39,16 +39,13 @@ def get_voter_prompt(categories: list[dict]) -> dict[str, str]:
     - The name of the nominee (either a movie or an actor / actress)
     - The nominee's identifier (id)
 
-    You must return a list of the best nominee in each category
+    You must return a json of the best nominee in each category
     in the following format:
     {"votes":[{"category_id":"<category_id>","nominee_id":"<nominee_id>","explanation":"<explanation>"}]}
 
-    The explanation should be a short explanation
-    (no more than 100 words) of why you chose the nominee,
-    pointing out the reasons why you chose the nominee.
-
-    If needed, you can browse the web to find more information about the nominees and categories, specially
-    on other awards websites such as:
+    The explanation should include your reasoning for choosing this nominee, indicating what aspects of the nominee's
+    performance you considered most important. If needed, you can browse the web to find more information about the
+    nominees and categories to help you make your decision, specially on other awards websites such as:
     - Golden Globes: https://goldenglobes.com/
     - BAFTA: https://www.bafta.org/
     - Critics' Choice Awards: https://www.criticschoice.org/

@@ -50,7 +50,7 @@ def main(run_example: bool = False):
 
     LOGGER.info(f"Loading judge config from {files_config['JUDGE_CONFIG_PATH']}")
     judge_config = files.load_yaml(files_config['JUDGE_CONFIG_PATH'])
-    
+
     LOGGER.info(f"Running predictions")
     predictions_results_list = predictions.run(
         voters_config=voters_config,

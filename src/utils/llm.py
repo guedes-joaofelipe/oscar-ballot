@@ -1,11 +1,11 @@
-"""Utilities to call vLLM chat-completion endpoints and parse JSON responses."""
+"""Utilities to call OpenAI-compatible chat completions and parse JSON responses."""
 
 from __future__ import annotations
 
 import json
 from typing import Any
 
-import requests
+from openai import OpenAI
 
 from utils.logger import get_logger
 
@@ -41,25 +41,6 @@ def _extract_json_payload(raw_content: str) -> Any:
     return json.loads(content)
 
 
-def _build_chat_completions_url(base_url: str) -> str:
-    """Build a vLLM chat completions URL from base URL.
-
-    Parameters
-    ----------
-    base_url : str
-        Base API URL configured for the model provider.
-
-    Returns
-    -------
-    str
-        Chat completions endpoint URL.
-    """
-    normalized_url = base_url.rstrip("/")
-    if normalized_url.endswith("/chat/completions"):
-        return normalized_url
-    return f"{normalized_url}/chat/completions"
-
-
 def call_model_json(
     model_config: dict,
     api_keys: dict,
@@ -67,7 +48,7 @@ def call_model_json(
     user_prompt: str,
     max_attempts: int = 2,
 ) -> Any:
-    """Call a configured vLLM-compatible model and parse JSON output.
+    """Call a configured OpenAI-compatible model and parse JSON output.
 
     Parameters
     ----------
@@ -89,33 +70,25 @@ def call_model_json(
     """
     api_key_id = model_config["api_key_id"]
     api_key_config = api_keys[api_key_id]
-    chat_completions_url = _build_chat_completions_url(api_key_config["API_ENDPOINT"])
-    headers = {
-        "Authorization": f"Bearer {api_key_config['API_KEY']}",
-        "Content-Type": "application/json",
-    }
+    client = OpenAI(
+        api_key=api_key_config["API_KEY"],
+        base_url=api_key_config["API_ENDPOINT"].rstrip("/"),
+    )
 
     last_error: Exception | None = None
     for attempt in range(max_attempts):
-        payload = {
-            "model": model_config["model"],
-            "temperature": model_config.get("temperature", 0.7),
-            "messages": [
+        response = client.chat.completions.create(
+            model=model_config["model"],
+            temperature=model_config.get("temperature", 0.7),
+            messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ],
-            "response_format": {"type": "json_object"},
-        }
-        response = requests.post(
-            chat_completions_url,
-            headers=headers,
-            json=payload,
+            response_format={"type": "json_object"},
             timeout=60,
         )
-        response.raise_for_status()
-        response_json = response.json()
         try:
-            content = response_json["choices"][0]["message"]["content"] or ""
+            content = response.choices[0].message.content or ""
             parsed_content = _extract_json_payload(content)
             return parsed_content
         except (json.JSONDecodeError, KeyError, IndexError, TypeError) as error:

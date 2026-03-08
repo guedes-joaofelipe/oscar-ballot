@@ -37,7 +37,7 @@ def get_judge_voter_prompt(categories: list[dict], votes: list[dict]) -> dict[st
     which is the best nominee in each category
     and explain why you chose the nominee.
 
-    You must return a list of the best nominee in each category
+    You must return a json of the best nominee in each category
     in the following JSON format:
     {"votes":[{"category_id":"<CATEGORY_ID>","nominee_id":"<NOMINEE_ID>","decision":"<decision>"}]}
 

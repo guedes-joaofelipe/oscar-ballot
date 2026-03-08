@@ -24,6 +24,10 @@ run-predictions:
 run-evaluations:
 	python3 scripts/run_evaluations.py
 
+run:
+	make run-predictions
+	make run-evaluations
+
 clean:
 	# Clean the code using ruff
 	ruff clean src

@@ -5,6 +5,7 @@ description = "Oscar ballot predictions using LLM voters and judge."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "openai",
     "pandas>=2.2.0",
     "pydantic>=2.7.0",
     "pytest>=8.3.0",

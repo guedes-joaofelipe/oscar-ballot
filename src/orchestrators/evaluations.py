@@ -66,7 +66,7 @@ def run(predictions: list[dict], winners: dict[str, str]) -> list[dict]:
 
 
 def calculate_scores(evaluations: list[dict]) -> list[dict]:
-    """Aggregate per-voter accuracy scores from evaluation rows.
+    """Aggregate per-voter classification scores from evaluation rows.
 
     Parameters
     ----------
@@ -96,11 +96,16 @@ def calculate_scores(evaluations: list[dict]) -> list[dict]:
     for score in by_voter.values():
         total_predictions = score["total_predictions"]
         correct_predictions = score["correct_predictions"]
+        false_predictions = total_predictions - correct_predictions
         accuracy = correct_predictions / total_predictions if total_predictions else 0.0
+        precision = correct_predictions / (correct_predictions + false_predictions) if total_predictions else 0.0
+        recall = correct_predictions / (correct_predictions + false_predictions) if total_predictions else 0.0
         score_rows.append(
             {
                 **score,
                 "accuracy": round(accuracy, 4),
+                "precision": round(precision, 4),
+                "recall": round(recall, 4),
             }
         )
 
