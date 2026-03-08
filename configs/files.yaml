@@ -1,0 +1,14 @@
+CATEGORIES_CONFIG_PATH: "configs/categories.yaml"
+PREDICTIONS_DATA_PATH: "data/votes/votes-*.csv"
+VOTERS_CONFIG_PATH: "configs/voters.yaml"
+JUDGE_CONFIG_PATH: "configs/judge.yaml"
+API_KEYS_PATH: "configs/keys.yaml"
+
+WINNERS_DATA_PATH: "data/winners.yaml"
+WINNERS_EXAMPLE_DATA_PATH: "data/winners.example.yaml"
+
+EVALUATIONS_DATA_PATH: "data/evaluations/evaluations.csv"
+EVALUATIONS_EXAMPLE_DATA_PATH: "data/evaluations/evaluations.example.csv"
+
+SCORES_DATA_PATH: "data/scores/scores.csv"
+SCORES_EXAMPLE_DATA_PATH: "data/scores/scores.example.csv"

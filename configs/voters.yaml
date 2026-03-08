@@ -1,0 +1,4 @@
+gpt_4_1_mini:
+  api_key_id: 'gpt_4_1_mini_key'
+  model: 'gpt-4.1-mini'
+  temperature: 0.7

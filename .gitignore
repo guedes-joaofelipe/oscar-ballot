@@ -1,0 +1,34 @@
+configs/keys.yaml
+data/evaluations/*.csv
+!data/evaluations/evaluations.example.csv
+data/votes/*.csv
+data/scores/*.csv
+!data/scores/scores.example.csv
+__pycache__
+.DS_Store
+# Virtual environment
+.venv
+venv
+env/
+.env
+.vendor
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Log files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints

@@ -1,0 +1,479 @@
+actor_in_a_leading_role:
+  name: Actor in a Leading Role
+  description: Best performance by an actor in a leading role.
+  nominees:
+    - id: mwdue1
+      name: Timothée Chalamet
+      movie: Marty Supreme
+    - id: ec0ne0
+      name: Leonardo DiCaprio
+      movie: One Battle After Another
+    - id: kflgyk
+      name: Ethan Hawke
+      movie: Blue Moon
+    - id: n6zr8m
+      name: Michael B. Jordan
+      movie: Sinners
+    - id: 4tvhm0
+      name: Wagner Moura
+      movie: The Secret Agent
+
+actress_in_a_leading_role:
+  name: Actress in a Leading Role
+  description: Best performance by an actress in a leading role.
+  nominees:
+    - id: bxi3eh
+      name: Jessie Buckley
+      movie: Hamnet
+    - id: deiq0f
+      name: Rose Byrne
+      movie: If I Had Legs I'd Kick You
+    - id: ixz7ud
+      name: Kate Hudson
+      movie: Song Sung Blue
+    - id: da2sc7
+      name: Renate Reinsve
+      movie: Sentimental Value
+    - id: h14p4n
+      name: Emma Stone
+      movie: Bugonia
+
+actor_in_a_supporting_role:
+  name: Actor in a Supporting Role
+  description: Best performance by an actor in a supporting role.
+  nominees:
+    - id: t7v3e9
+      name: Benicio Del Toro
+      movie: One Battle After Another
+    - id: l86kg9
+      name: Jacob Elordi
+      movie: Frankenstein
+    - id: 2rp06w
+      name: Delroy Lindo
+      movie: Sinners
+    - id: 8qgtph
+      name: Sean Penn
+      movie: One Battle After Another
+    - id: kvv6uo
+      name: Stellan Skarsgård
+      movie: Sentimental Value
+
+actress_in_a_supporting_role:
+  name: Actress in a Supporting Role
+  description: Best performance by an actress in a supporting role.
+  nominees:
+    - id: j6x2g3
+      name: Elle Fanning
+      movie: Sentimental Value
+    - id: tk9vm6
+      name: Inga Ibsdotter Lilleaas
+      movie: Sentimental Value
+    - id: ct7cdn
+      name: Amy Madigan
+      movie: Weapons
+    - id: 80wcyd
+      name: Wunmi Mosaku
+      movie: Sinners
+    - id: 5e0nn0
+      name: Teyana Taylor
+      movie: One Battle After Another
+
+best_picture:
+  name: Best Picture
+  description: Best overall achievement in filmmaking for a feature film.
+  nominees:
+    - id: myd2ut
+      name: Hamnet
+      movie:
+    - id: 0ngqcy
+      name: Marty Supreme
+      movie:
+    - id: nsy7w0
+      name: One Battle After Another
+      movie:
+    - id: 8cthsq
+      name: The Secret Agent
+      movie:
+    - id: rl387e
+      name: Sinners
+      movie:
+
+directing:
+  name: Directing
+  description: Outstanding achievement in directorial vision and execution.
+  nominees:
+    - id: l56wqp
+      name: Chloé Zhao
+      movie: Hamnet
+    - id: n4qyug
+      name: Josh Safdie
+      movie: Marty Supreme
+    - id: whw64s
+      name: Paul Thomas Anderson
+      movie: One Battle After Another
+    - id: j3a38g
+      name: Joachim Trier
+      movie: Sentimental Value
+    - id: vic9iv
+      name: Ryan Coogler
+      movie: Sinners
+
+music_original_song:
+  name: Music (Original Song)
+  description: Best original song written specifically for a motion picture.
+  nominees:
+    - id: 9q7ndz
+      name: Dear Me
+      movie: "Diane Warren: Relentless"
+    - id: qnu1y5
+      name: Golden
+      movie: KPop Demon Hunters
+    - id: 5hy4zc
+      name: I Lied To You
+      movie: Sinners
+    - id: 3ng1zu
+      name: Sweet Dreams Of Joy
+      movie: Viva Verdi!
+    - id: al4dko
+      name: Train Dreams
+      movie: Train Dreams
+
+music_original_score:
+  name: Music (Original Score)
+  description: Best original score composed for a motion picture.
+  nominees:
+    - id: okb98p
+      name: Jerskin Fendrix
+      movie: Bugonia
+    - id: c4gcqu
+      name: Alexandre Desplat
+      movie: Frankenstein
+    - id: f6y9il
+      name: Max Richter
+      movie: Hamnet
+    - id: cgz44p
+      name: Jonny Greenwood
+      movie: One Battle After Another
+    - id: bn5eyf
+      name: Ludwig Göransson
+      movie: Sinners
+
+documentary_feature_film:
+  name: Documentary Feature Film
+  description: Best documentary feature, recognized for nonfiction storytelling and impact.
+  nominees:
+    - id: 95kldv
+      name: The Alabama Solution
+      movie:
+    - id: jvwho9
+      name: Come See Me in the Good Light
+      movie:
+    - id: 89uvpu
+      name: Cutting Through Rocks
+      movie:
+    - id: rr698a
+      name: Mr. Nobody Against Putin
+      movie:
+    - id: lxm3du
+      name: The Perfect Neighbor
+      movie:
+
+documentary_short_film:
+  name: Documentary Short Film
+  description: Best documentary short, recognized for concise nonfiction storytelling.
+  nominees:
+    - id: 9uro4f
+      name: All the Empty Rooms
+      movie:
+    - id: 3cxftf
+      name: "Armed Only with a Camera: The Life and..."
+      movie:
+    - id: yktz1c
+      name: 'Children No More: "Were and Are Gone"'
+      movie:
+    - id: lizckg
+      name: The Devil Is Busy
+      movie:
+    - id: 3akl6n
+      name: Perfectly a Strangeness
+      movie:
+
+animated_feature_film:
+  name: Animated Feature Film
+  description: Best feature-length animated film.
+  nominees:
+    - id: rai8z6
+      name: Arco
+      movie:
+    - id: 6vws6o
+      name: Elio
+      movie:
+    - id: x5mkif
+      name: KPop Demon Hunters
+      movie:
+    - id: ftzfnd
+      name: Little Amélie or the Character of Rain
+      movie:
+    - id: iffqk1
+      name: Zootopia 2
+      movie:
+
+animated_short_film:
+  name: Animated Short Film
+  description: Best animated short film.
+  nominees:
+    - id: ee9utg
+      name: Butterfly
+      movie:
+    - id: sw5w3v
+      name: Forevergreen
+      movie:
+    - id: 9217u9
+      name: The Girl Who Cried Pearls
+      movie:
+    - id: 8xju64
+      name: Retirement Plan
+      movie:
+    - id: 61p8rj
+      name: The Three Sisters
+      movie:
+
+international_feature_film:
+  name: International Feature Film
+  description: Best international feature film, primarily produced outside the United States.
+  nominees:
+    - id: a4v3zb
+      name: The Secret Agent
+      movie:
+    - id: f9tjgl
+      name: It Was Just an Accident
+      movie:
+    - id: afpxom
+      name: Sentimental Value
+      movie:
+    - id: lqnphl
+      name: Sirāt
+      movie:
+    - id: ndr62m
+      name: The Voice of Hind Rajab
+      movie:
+
+live_action_short_film:
+  name: Live Action Short Film
+  description: Best live action short film.
+  nominees:
+    - id: 5kuzgd
+      name: Butcher's Stain
+      movie:
+    - id: v01xe5
+      name: A Friend of Dorothy
+      movie:
+    - id: 0dfroh
+      name: Jane Austen's Period Drama
+      movie:
+    - id: 0krb0w
+      name: The Singers
+      movie:
+    - id: lpsr3l
+      name: Two People Exchanging Saliva
+      movie:
+
+film_editing:
+  name: Film Editing
+  description: Best achievement in film editing, pacing, and narrative rhythm.
+  nominees:
+    - id: oo52k7
+      name: F1
+      movie:
+    - id: iou51b
+      name: Marty Supreme
+      movie:
+    - id: u3mwko
+      name: One Battle After Another
+      movie:
+    - id: jxavbf
+      name: Sentimental Value
+      movie:
+    - id: e92sj8
+      name: Sinners
+      movie:
+
+makeup_and_hairstyling:
+  name: Makeup and Hairstyling
+  description: Best achievement in makeup and hairstyling design and execution.
+  nominees:
+    - id: gq8xkm
+      name: Frankenstein
+      movie:
+    - id: cyinjd
+      name: Kokuho
+      movie:
+    - id: s3fzhe
+      name: Sinners
+      movie:
+    - id: gnsntv
+      name: The Smashing Machine
+      movie:
+    - id: 37vdy6
+      name: The Ugly Stepsister
+      movie:
+
+casting:
+  name: Casting
+  description: Outstanding achievement in ensemble and principal role casting.
+  nominees:
+    - id: 17f8qn
+      name: Hamnet
+      movie:
+    - id: 3piuth
+      name: Marty Supreme
+      movie:
+    - id: b3r9rp
+      name: One Battle After Another
+      movie:
+    - id: dxzb8x
+      name: The Secret Agent
+      movie:
+    - id: 532iy3
+      name: Sinners
+      movie:
+
+visual_effects:
+  name: Visual Effects
+  description: Best visual effects integration and technical artistry.
+  nominees:
+    - id: luy1uh
+      name: "Avatar: Fire and Ash"
+      movie:
+    - id: 3rxkgk
+      name: F1
+      movie:
+    - id: cl74rt
+      name: Jurassic World Rebirth
+      movie:
+    - id: ua6zir
+      name: The Lost Bus
+      movie:
+    - id: d3nras
+      name: Sinners
+      movie:
+
+production_design:
+  name: Production Design
+  description: Best production design, including sets, locations, and visual worldbuilding.
+  nominees:
+    - id: jg6br3
+      name: Frankenstein
+      movie:
+    - id: i5r8jr
+      name: Hamnet
+      movie:
+    - id: r45iwx
+      name: Marty Supreme
+      movie:
+    - id: 9e72r9
+      name: One Battle After Another
+      movie:
+    - id: 50u05n
+      name: Sinners
+      movie:
+
+writing_adapted_screenplay:
+  name: Writing (Adapted Screenplay)
+  description: Best adapted screenplay based on previously published or produced material.
+  nominees:
+    - id: gc7mlx
+      name: Bugonia
+      movie:
+    - id: 74lq85
+      name: Frankenstein
+      movie:
+    - id: 1y6q98
+      name: Hamnet
+      movie:
+    - id: 50iukq
+      name: One Battle After Another
+      movie:
+    - id: fr5xd9
+      name: Train Dreams
+      movie:
+
+writing_original_screenplay:
+  name: Writing (Original Screenplay)
+  description: Best original screenplay written directly for the screen.
+  nominees:
+    - id: snqpex
+      name: Blue Moon
+      movie:
+    - id: d3654y
+      name: It Was Just an Accident
+      movie:
+    - id: o12n2f
+      name: Marty Supreme
+      movie:
+    - id: opi1s4
+      name: Sentimental Value
+      movie:
+    - id: fn46mp
+      name: Sinners
+      movie:
+
+sound:
+  name: Sound
+  description: Best achievement in sound design, recording, mixing, and editing.
+  nominees:
+    - id: 43bp0u
+      name: F1
+      movie:
+    - id: u7qdil
+      name: Frankenstein
+      movie:
+    - id: l0b98w
+      name: One Battle After Another
+      movie:
+    - id: r33gxj
+      name: Sinners
+      movie:
+    - id: 565o9r
+      name: Sirāt
+      movie:
+
+costume_design:
+  name: Costume Design
+  description: Best costume design supporting character, period, and visual storytelling.
+  nominees:
+    - id: tdz3u5
+      name: "Avatar: Fire and Ash"
+      movie:
+    - id: 6rjlzf
+      name: Frankenstein
+      movie:
+    - id: yuspko
+      name: Hamnet
+      movie:
+    - id: va2yk7
+      name: Marty Supreme
+      movie:
+    - id: 8amyzo
+      name: Sinners
+      movie:
+
+cinematography:
+  name: Cinematography
+  description: Best cinematography, including lighting, framing, and camera movement.
+  nominees:
+    - id: p5jizs
+      name: Frankenstein
+      movie:
+    - id: fsyjrl
+      name: Marty Supreme
+      movie:
+    - id: vxsb0h
+      name: One Battle After Another
+      movie:
+    - id: 7tr946
+      name: Sinners
+      movie:
+    - id: t3bbqh
+      name: Train Dreams
+      movie:

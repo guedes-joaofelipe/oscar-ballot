@@ -1,0 +1,7 @@
+timestamp,category_id,voter_id,predicted_winner_id,winner_nominee_id,is_judge,is_correct
+2026-03-08T09:53:20-03:00,actor_in_a_leading_role,gpt_4_1_mini,mwdue1,mwdue1,False,True
+2026-03-08T09:53:20-03:00,actress_in_a_leading_role,gpt_4_1_mini,h14p4n,h14p4n,False,True
+2026-03-08T09:53:20-03:00,music_original_score,gpt_4_1_mini,bn5eyf,bn5eyf,False,True
+2026-03-08T09:53:20-03:00,actor_in_a_leading_role,judge_panel,mwdue1,mwdue1,True,True
+2026-03-08T09:53:20-03:00,actress_in_a_leading_role,judge_panel,h14p4n,h14p4n,True,True
+2026-03-08T09:53:20-03:00,music_original_score,judge_panel,bn5eyf,bn5eyf,True,True
