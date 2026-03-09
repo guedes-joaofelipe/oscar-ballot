@@ -2,10 +2,6 @@ voter_gpt_4_1_mini_temp_0.7:
   api_key_id: 'genplat'
   model: 'gpt-4.1-mini'
   temperature: 0.7
-voter_o3_mini_temp_0.7:
-  api_key_id: 'genplat'
-  model: 'o3-mini'
-  temperature: 0.7
 voter_o3_temp_0.7:
   api_key_id: 'genplat'
   model: 'o3'
@@ -13,10 +9,6 @@ voter_o3_temp_0.7:
 voter_gpt_4_1_mini_temp_0.5:
   api_key_id: 'genplat'
   model: 'gpt-4.1-mini'
-  temperature: 0.5
-voter_o3_mini_temp_0.5:
-  api_key_id: 'genplat'
-  model: 'o3-mini'
   temperature: 0.5
 voter_o3_temp_0.5:
   api_key_id: 'genplat'
@@ -26,11 +18,23 @@ voter_gpt_4_1_mini_temp_1.2:
   api_key_id: 'genplat'
   model: 'gpt-4.1-mini'
   temperature: 1.2
-voter_o3_mini_temp_1.2:
-  api_key_id: 'genplat'
-  model: 'o3-mini'
-  temperature: 1.2
 voter_o3_temp_1.2:
   api_key_id: 'genplat'
   model: 'o3'
   temperature: 1.2
+voter_o3_system_prompt_repetitions_2:
+  api_key_id: 'genplat'
+  model: 'o3'
+  temperature: 1.2
+  system_prompt_repetitions: 2
+voter_o3_user_prompt_repetitions_2:
+  api_key_id: 'genplat'
+  model: 'o3'
+  temperature: 1.2
+  user_prompt_repetitions: 2
+voter_o3_system_user_prompt_repetitions_2:
+  api_key_id: 'genplat'
+  model: 'o3'
+  temperature: 1.2
+  user_prompt_repetitions: 2
+  system_prompt_repetitions: 2

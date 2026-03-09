@@ -18,7 +18,7 @@ def test_extract_vote_list_accepts_votes_key() -> None:
 
 
 def test_run_builds_predictions_with_mocked_llm(monkeypatch) -> None:
-    """Run should combine voter votes and judge decisions into prediction rows."""
+    """Run should combine voter votes and decisions from multiple judges."""
 
     voters_payload = {
         "votes": [
@@ -68,7 +68,13 @@ def test_run_builds_predictions_with_mocked_llm(monkeypatch) -> None:
             "api_key_id": "dummy",
             "model": "dummy-model",
             "temperature": 0.0,
-        }
+        },
+        "judge_b": {
+            "api_key_id": "dummy",
+            "model": "dummy-model",
+            "temperature": 0.0,
+            "system_prompt_repetitions": 2,
+        },
     }
     categories_config = {
         "best_picture": {
@@ -86,7 +92,7 @@ def test_run_builds_predictions_with_mocked_llm(monkeypatch) -> None:
         api_keys=api_keys,
     )
 
-    assert len(results) == 2
+    assert len(results) == 3
     assert results[0]["category_id"] == "best_picture"
     assert results[0]["predicted_winner_id"] == "nom-1"
     assert results[0]["voter_id"] == "voter_a"
@@ -95,3 +101,7 @@ def test_run_builds_predictions_with_mocked_llm(monkeypatch) -> None:
     assert results[1]["predicted_winner_id"] == "nom-1"
     assert results[1]["voter_id"] == "judge_a"
     assert results[1]["is_judge"] is True
+    assert results[2]["category_id"] == "best_picture"
+    assert results[2]["predicted_winner_id"] == "nom-1"
+    assert results[2]["voter_id"] == "judge_b"
+    assert results[2]["is_judge"] is True

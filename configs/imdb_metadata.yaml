@@ -1,0 +1,650 @@
+hamnet:
+  title: Hamnet
+  year: 2025
+  synopsis: After losing their son Hamnet to plague, Agnes and William Shakespeare grapple with grief in 16th-century England. A healer, Agnes must find strength to care for her surviving children while processing her devastating loss.
+  directors:
+  - Chloé Zhao
+  cast:
+  - Jessie Buckley
+  - Paul Mescal
+  - Zac Wishart
+  imdb_rating: 7.9
+  imdb_url: https://www.imdb.com/title/tt14905854
+
+marty_supreme:
+  title: Marty Supreme
+  year: 2025
+  synopsis: Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.
+  directors:
+  - Josh Safdie
+  cast:
+  - Timothée Chalamet
+  - Gwyneth Paltrow
+  - Odessa A'zion
+  imdb_rating: 7.8
+  imdb_url: https://www.imdb.com/title/tt32916440
+
+one_battle_after_another:
+  title: One Battle After Another
+  year: 2025
+  synopsis: When their enemy resurfaces after 16 years, a group of ex-revolutionaries reunite to rescue the daughter of one of their own.
+  directors:
+  - Paul Thomas Anderson
+  cast:
+  - Leonardo DiCaprio
+  - Sean Penn
+  - Benicio Del Toro
+  imdb_rating: 7.7
+  imdb_url: https://www.imdb.com/title/tt30144839
+
+blue_moon:
+  title: Blue Moon
+  year: 2025
+  synopsis: Tells the story of Lorenz Hart's struggles with alcoholism and mental health as he tries to save face during the opening of "Oklahoma!".
+  cast:
+  - Ethan Hawke
+  - Margaret Qualley
+  directors:
+  - Richard Linklater
+  imdb_rating: 7.4
+  imdb_url: https://www.imdb.com/title/tt32536315
+
+sinners:
+  title: Sinners
+  year: 2025
+  synopsis: Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.
+  cast:
+  - Michael B. Jordan
+  - Hailee Steinfeld
+  - Jack O'Connell
+  - Wunmi Mosaku
+  directors:
+  - Ryan Coogler
+  imdb_rating: 7.5
+  imdb_url: https://www.imdb.com/title/tt31193180
+
+the_secret_agent:
+  title: The Secret Agent
+  synopsis: In 1977, a technology expert flees from a mysterious past and returns to his hometown of Recife in search of peace. He soon realizes that the city is far from being the refuge he seeks.
+  year: 2025
+  cast:
+  - Robson Andrade
+  - Rubens Santos
+  - Licínio Januário
+  directors:
+  - Kleber Mendonça Filho
+  imdb_rating: 7.3
+  imdb_url: https://www.imdb.com/title/tt27847051
+
+if_i_had_legs_id_kick_you:
+  title: If I Had Legs I'd Kick You
+  year: 2025
+  synopsis: While trying to manage her own life and career, a woman on the verge of a breakdown must cope with her daughter's illness, an absent husband, a missing person, and an unusual relationship with her therapist.
+  directors:
+  - Mary Bronstein
+  cast:
+  - Rose Byrne
+  - Conan O'Brien
+  - Danielle Macdonald
+  imdb_rating: 6.6
+  imdb_url: https://www.imdb.com/title/tt18382850
+
+song_sung_blue:
+  title: Song Sung Blue
+  year: 2025
+  synopsis: The story of two down-on-their-luck musicians who prove it's never too late to find love and follow their dreams, based on a true story about a Neil Diamond tribute band
+  cast:
+  - Hugh Jackman
+  - Kate Hudson
+  - Ella Anderson
+  directors:
+  - Craig Brewer
+  imdb_rating: 7.3
+  imdb_url: https://www.imdb.com/title/tt30343021
+
+sentimental_value:
+  title: Sentimental Value
+  year: 2025
+  synopsis: An intimate exploration of family, memories, and the reconciliatory power of art.
+  directors:
+  - Joachim Trier
+  cast:
+  - Renate Reinsve
+  - Stellan Skarsgård
+  - Inga Ibsdotter Lilleaas
+  imdb_rating: 7.8
+  imdb_url: https://www.imdb.com/title/tt27714581
+
+bugonia:
+  title: Bugonia
+  year: 2025
+  synopsis: Two conspiracy-obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.
+  directors:
+  - Yorgos Lanthimos
+  cast:
+  - Emma Stone
+  - Jesse Plemons
+  - Aidan Delbis
+  imdb_rating: 7.4
+  imdb_url: https://www.imdb.com/title/tt12300742
+
+frankenstein:
+  title: Frankenstein
+  year: 2025
+  synopsis: A Gothic horror feature written and directed by Guillermo del Toro
+  cast:
+  - Oscar Isaac
+  - Jacob Elordi
+  - Mia Goth
+  - Felix Kammerer
+  - Lars Mikkelsen
+  - David Bradley
+  - Charles Dance
+  - Christoph Waltz
+  directors:
+  - Guillermo del Toro
+  imdb_rating: 7.4
+  imdb_url: https://www.imdb.com/title/tt1312221
+
+weapons:
+  title: Weapons
+  year: 2025
+  synopsis: A community grappling with the mysterious disappearance of all but one child from the same class on the same night
+  cast:
+  - Josh Brolin
+  - Julia Garner
+  - Alden Ehrenreich
+  - Austin Abrams
+  - Cary Christopher
+  - Benedict Wong
+  - Amy Madigan
+  directors:
+  - Zach Cregger
+  imdb_rating: 7.4
+  imdb_url: https://www.imdb.com/title/tt26581740
+
+diane_warren_relentless:
+  title: Diane Warren Relentless
+  year: 2025
+  synopsis: The untold story of a legendary songwriter. Featuring Cher, Common, Jennifer Hudson, Gloria Estefan, Kesha, LeAnn Rimes, and more.
+  directors:
+  - Bess Kargman
+  cast:
+  - Diane Warren
+  - Cher
+  - Common
+  imdb_rating: 6.3
+  imdb_url: https://www.imdb.com/title/tt14588692
+
+kpop_demon_hunters:
+  title: KPop Demon Hunters
+  year: 2025
+  synopsis: A world-renowned K-Pop girl group balance their lives in the spotlight with their secret identities as demon hunters.
+  directors:
+  - Chris Appelhans
+  - Maggie Kang
+  cast:
+  - Arden Chlo
+  - May Hon
+  - Ji-young Yoo
+  imdb_rating: 7.5
+  imdb_url: https://www.imdb.com/title/tt14205554
+
+viva_verdi:
+  title: Viva Verdi!
+  year: 2025
+  synopsis: Oscar nominated for Best Song, VIVA VERDI. is an intimate glimpse into lives of celebrated opera singers and musicians living our their 'third act' while mentoring music students at Casa Verdi Milan, built by Giuseppe Verdi in 1896.
+  directors:
+  - Yvonne Russo
+  cast:
+  - Catherine Feller
+  - Claudio Giombi
+  - Chitose Matsumoto
+  imdb_rating: 6,2
+  imdb_url: https://www.imdb.com/title/tt3595454
+
+train_dreams:
+  title: Train Dreams
+  year: 2025
+  synopsis: 'Incarcerated men defy the odds to expose a cover-up in one of the United States deadliest prison systems.'
+  directors:
+  - Andrews Jarecki
+  - Charlotte Kaufman
+  cast:
+  - Raoul Poole
+  - Robert Earl Council
+  - Melvin Ray
+  imdb_rating: 7.8
+  imdb_url: https://www.imdb.com/title/tt35307139
+
+the_alabama_solution:
+  title: The Alabama Solution
+  year:
+  synopsis:
+  directors:
+  -
+  cast:
+  -
+  imdb_rating:
+
+come_see_me_in_the_good_light:
+  title: Come See Me in the Good Light
+  year: 2025
+  synopsis: Facing an incurable diagnosis, two poet lovers embark on a poignant yet unexpectedly humorous exploration of love, mortality, and life's moments.
+  directors:
+  - Ryan White
+  cast:
+  - Megan Falley
+  - Andrea Gibson
+  - Tig Notaro
+  imdb_rating: 7.6
+  imdb_url: https://www.imdb.com/title/tt34966013
+
+cutting_through_rocks:
+  title: Cutting Through Rocks
+  year: 2025
+  synopsis: First female councilor in her Iranian village, Sara Shahverdi challenges tradition by teaching girls to ride motorcycles and fighting child marriage, while facing doubts about her motives.
+  directors:
+  - Mohammadreza Eyni
+  - Sara Khaki
+  cast:
+  - Sara Shahverdi
+  imdb_rating: 7.3
+  imdb_url: https://www.imdb.com/title/tt10196414
+
+mr_nobody_against_putin:
+  title: Mr. Nobody Against Putin
+  year: 2025
+  synopsis: A Russian teacher secretly documents his small town school's transformation into a war recruitment center during the Ukraine invasion, revealing the ethical dilemmas educators face amid propaganda and militarization.
+  directors:
+  - David Borenstein
+  - Pavel Talankin
+  cast:
+  - Viktor Abakumov
+  - Lavrenti Beria
+  - Yevhen Konovalets
+  imdb_rating: 7.5
+  imdb_url: https://www.imdb.com/title/tt34965515
+
+the_perfect_neighbor:
+  title: The Perfect Neighbor
+  year: 2025
+  synopsis: A minor disagreement between neighbors in Florida takes a lethal turn, with police body camera footage and interviews probing the aftermath of the state's controversial "stand your ground" laws.
+  directors:
+  - Geeta Gandbhir
+  cast:
+  - Susan Lorincz
+  - Ajike Owens
+  - Franklin Baes-Colon
+  imdb_rating: 7.1
+  imdb_url: https://www.imdb.com/title/tt34962891
+
+all_the_empty_rooms:
+  title: All the Empty Rooms
+  year: 2025
+  synopsis: Follows correspondent Steve Hartman and photographer Lou Bopp as they embark on a seven-year-long project to document the empty bedrooms of children killed in school shootings.
+  directors:
+  - Joshua Seftel
+  cast:
+  - Steve Hartman
+  - Lou Bopp
+  - Frank Blackwell
+  imdb_rating: 7.4
+  imdb_url: https://www.imdb.com/title/tt37798645
+
+armed_only_with_a_camera_the_life_and:
+  title: Armed Only with a Camera the Life and Death of a Boy
+  year: 2025
+  synopsis: An intimate chronicle about documentary filmmaker Brent Renaud, the first American journalist killed while reporting on the Russo-Ukrainian War.
+  directors:
+  - Brent Renaud
+  - Craig Renaud
+  cast:
+  - Jon Alpert
+  imdb_rating: 7.0
+  imdb_url: https://www.imdb.com/title/tt35515733
+
+children_no_more_were_and_are_gone:
+  title: Children No More Were and Are Gone
+  year: 2025
+  synopsis: In Tel Aviv, activists gather weekly to demonstrate their opposition to the war in Gaza with a silent vigil for the children killed in Israeli attacks.
+  directors:
+  - Hilla Medalia
+  cast: []
+  imdb_rating: 6.4
+  imdb_url: https://www.imdb.com/title/tt38691874
+
+the_devil_is_busy:
+  title: The Devil Is Busy
+  year: 2025
+  synopsis: At an Atlanta abortion clinic besieged by protesters, the director of operations takes necessary risks to safeguard staff and patients.
+  directors:
+  - Geeta Gandbhir
+  - Christalyn Hampton
+  cast: []
+  imdb_rating: 6.9
+  imdb_url: https://www.imdb.com/title/tt34205548
+
+perfectly_a_strangeness:
+  title: Perfectly a Strangeness
+  year: 2024
+  synopsis: In the dazzling incandescence of an unknown desert, three donkeys discover an abandoned astronomical observatory and the universe. A sensorial, cinematic exploration of what a story can be.
+  directors:
+  - Alison McAlpine
+  cast:
+  - Palomo
+  - Ruperto
+  - Palaye
+  imdb_rating: 5.7
+  imdb_url: https://www.imdb.com/title/tt32205767
+
+arco:
+  title: Arco
+  year: 2025
+  synopsis: In 2075, a girl witnesses a mysterious boy in a rainbow suit fall from the sky. He comes from an idyllic far future where time travel is possible. She shelters him and will do whatever it takes to help him return to his time.
+  directors:
+  - Ugo Bienvenu
+  - Gilles Cazaux
+  cast:
+  - Margot Ringard Oldra
+  - Oscar Tresanini
+  - Nathanael Perrot
+  imdb_rating: 7.3
+  imdb_url: https://www.imdb.com/title/tt14883538
+
+elio:
+  title: Elio
+  year: 2025
+  synopsis: Elio, a space enthusiast, is mistakenly identified as Earth's leader and sent to an interplanetary organization where he must connect with alien lifeforms and navigate an intergalactic crisis
+  directors:
+  - Adrian Molina
+  cast:
+  - Yonas Kibreab
+  - Zoe Saldaña
+  - Remy Edgerly
+  - Brad Garrett
+  - Jameela Jamil
+  imdb_rating: 6.6
+  imdb_url: https://www.imdb.com/title/tt4900148
+
+little_amelie_or_the_character_of_rain:
+  title: Little Amélie or the Character of Rain
+  year: 2025
+  synopsis: Amélie, a Belgian child in Japan, explores life with her companion Nishio-san. Her third birthday becomes a turning point, marking the beginning of life-altering events that shape her understanding of the world.
+  directors:
+  - Liane-Cho
+  - Han Jin Kuang
+  - Maïlys Vallade
+  cast:
+  - Liane-Cho
+  - Han Jin Kuang
+  - Aude Py
+  - Maïlys Vallade
+  imdb_rating: 7.5
+  imdb_url: https://www.imdb.com/title/tt29313285
+
+zootopia_2:
+  title: Zootopia 2
+  year: 2025
+  synopsis: Judy Hopps and Nick Wilde team up for a new case, described as the most perilous of their careers
+  directors:
+  - Byron Howard
+  - Rich Moore
+  cast:
+  - Ginnifer Goodwin
+  - Jason Bateman
+  imdb_rating: 7.5
+  imdb_url: https://www.imdb.com/title/tt26443597
+
+butterfly:
+  title: Butterfly
+  year: 2025
+  synopsis: When the consequences of a decision from his past come back to haunt him, a former intelligence operative finds himself pursued by a sociopathic agent assigned to kill him.
+  directors: []
+  cast:
+  - Daniel Dae Kim
+  - Reina Hardesty
+  - Louis Landau
+  imdb_rating: 6.7
+  imdb_url: https://www.imdb.com/title/tt26672404
+
+forevergreen:
+  title: Forevergreen
+  year: 2025
+  synopsis: An orphaned bear cub finds a home with a fatherly evergreen tree, until his hunger for trash leads him to danger.
+  directors:
+  - Nathan Engelhardt
+  - Jeremy Spears
+  cast: []
+  imdb_rating: 7.1
+  imdb_url: https://www.imdb.com/title/tt36454323
+
+the_girl_who_cried_pearls:
+  title: The Girl Who Cried Pearls
+  year: 2025
+  synopsis: A haunting fable about a girl overwhelmed by sorrow, the boy who loves her, and how greed leads good hearts to wicked deeds.
+  directors:
+  - Chris Lavis
+  - Maciek Szczerbowski
+  - Isabelle Mandalian
+  cast:
+  - Colm Feore
+  - Gabrielle Dallaire
+  - James Hyndman
+  imdb_rating: 7.3
+  imdb_url: https://www.imdb.com/title/tt36956820
+
+retirement_plan:
+  title: Retirement Plan
+  year: 2024
+  synopsis: In the throes of his overstimulated, energy poor midlife, Ray fantasises about everything he'd love to do in retirement, once he finally has the "time."
+  directors:
+  - John Kelly
+  cast:
+  - Domhnall Gleeson
+  imdb_rating: 7.3
+  imdb_url: https://www.imdb.com/title/tt33019507
+
+the_three_sisters:
+  title: The Three Sisters
+  year: 2024
+  synopsis: Three sisters living on an isolated island must rent out one of their houses.
+  directors:
+  - Konstantin Bronzit
+  cast: []
+  imdb_rating: 6.1
+  imdb_url: https://www.imdb.com/title/tt35676079
+
+it_was_just_an_accident:
+  title: It Was Just an Accident
+  year: 2025
+  synopsis: An unassuming mechanic is reminded of his time in an Iranian prison when he encounters a man he suspects to be his sadistic jailhouse captor. Panicked, he rounds up a few of his fellow ex-prisoners to confirm the man's identity.
+  directors:
+  - Jafar Panahi
+  cast:
+  - Vahid Mobasseri
+  - Mariam Afshari
+  - Ebrahim Azizi
+  imdb_rating: 7.5
+  imdb_url: https://www.imdb.com/title/tt36491653
+
+sirat:
+  title: Sirāt
+  year: 2025
+  synopsis: A father, accompanied by his son, goes looking for his missing daughter in North Africa.
+  directors:
+  - Oliver Laxe
+  cast:
+  - Sergi López
+  - Bruno Núñez
+  - Stefania Gadda
+  imdb_rating: 7.0
+  imdb_url: https://www.imdb.com/title/tt32298285
+
+the_voice_of_hind_rajab:
+  title: The Voice of Hind Rajab
+  year: 2025
+  synopsis: Red Crescent volunteers receive an emergency call. A 6-year old girl is trapped in a car under IDF fire in Gaza, pleading for rescue. While trying to keep her on the line, they do everything they can to get an ambulance to her.
+  directors:
+  - Kaouther Ben Hania
+  cast:
+  - Saja Kilani
+  - Motaz Malhees
+  - Amer Hlehel
+  imdb_rating: 8.3
+  imdb_url: https://www.imdb.com/title/tt36943034
+
+butchers_stain:
+  title: Butcher's Stain
+  year: 2025
+  synopsis: Samir, an Arab Israeli working in a supermarket in Tel Aviv, is accused of tearing down hostage posters in the break room. He sets out to prove his innocence to keep this job that he desperately needs.
+  directors:
+  - Meyer Levinson-Blount
+  cast:
+  - Omar Sameer
+  - Meyer Levinson-Blount
+  - Rona Toledano
+  imdb_rating: 6.4
+  imdb_url: https://www.imdb.com/title/tt39232815
+
+a_friend_of_dorothy:
+  title: A Friend of Dorothy
+  year: 2025
+  synopsis: A lonely widow's quiet life is upended when a teenage boy accidentally kicks his football into her garden.
+  directors:
+  - Lee Knight
+  cast:
+  - Stephen Fry
+  - Oscar Lloyd
+  - Alistair Nwachukwu
+  imdb_rating: 7.3
+  imdb_url: https://www.imdb.com/title/tt35489516
+
+jane_austens_period_drama:
+  title: Jane Austen's Period Drama
+  year: 2024
+  synopsis: England, 1813. In the middle of a long-awaited marriage proposal, Miss Estrogenia Talbot gets her period. Her suitor, Mr. Dickley, mistakes the blood for an injury, and it soon becomes clear that his expensive education has missed a spot.
+  directors:
+  - Julia Akst
+  - Steve Pinder
+  cast:
+  - Julia Akst
+  - Ta'imua
+  - Samantha Smart
+  imdb_rating: 7.2
+  imdb_url: https://www.imdb.com/title/tt31171760
+
+the_singers:
+  title: The Singers
+  year: 2025
+  synopsis: An impromptu sing-off will decide the best singer in the bar tonight.
+  directors:
+  - Sam A. Davis
+  cast:
+  - Chris Smither
+  - Will Harrington
+  - Judah Kelly
+  imdb_rating: 7.3
+  imdb_url: https://www.imdb.com/title/tt33508491
+
+two_people_exchanging_saliva:
+  title: Two People Exchanging Saliva
+  year: 2025
+  synopsis: In a society where kissing is punishable by death, and people pay for things by receiving slaps to the face. Angine, an unhappy woman, shops compulsively in a department store. There, she becomes fascinated by a playful salesgirl. Despite the prohibition of kissing, the two become close, raising the suspicions of a jealous colleague.
+  directors:
+  - Natalie Musteata
+  - Alexandre Singh
+  cast:
+  - Zar Amir Ebrahimi
+  - Luàna Bajrami
+  - Vicky Krieps
+  imdb_rating: 7.2
+  imdb_url: https://www.imdb.com/title/tt33365259
+
+f1:
+  title: F1
+  year: 2025
+  synopsis: A Formula One driver comes out of retirement to mentor and team up with a younger driver.
+  directors:
+  - Joseph Kosinski
+  cast:
+  - Brad Pitt
+  - Damson Idris
+  - Javier Bardem
+  imdb_rating: 7.6
+  imdb_url: https://www.imdb.com/title/tt16311594
+
+kokuho:
+  title: Kokuho
+  year: 2025
+  synopsis: In post-war Japan's economic boom, gangster family-born Kikuo Tachibana finds himself adopted by a kabuki actor. Despite life's challenges, he develops into a gifted performer.
+  directors:
+  - Sang-il Lee
+  cast:
+  - Ryô Yoshizawa
+  - Ryûsei Yokohama
+  - Mitsuki Takahata
+  imdb_rating: 7.6
+  imdb_url: https://www.imdb.com/title/tt35231039
+
+the_smashing_machine:
+  title: The Smashing Machine
+  year: 2025
+  synopsis: The story of mixed-martial arts and UFC champion, Mark Kerr.
+  directors:
+  - Benny Safdie
+  cast:
+  - Dwayne Johnson
+  - Emily Blunt
+  imdb_rating: 6.3
+  imdb_url: https://www.imdb.com/title/tt11214558
+
+the_ugly_stepsister:
+  title: The Ugly Stepsister
+  year: 2025
+  synopsis: Elvira battles against her gorgeous stepsister in a realm where beauty reigns supreme. She resorts to extreme measures to captivate the prince, amid a ruthless competition for physical perfection.
+  directors:
+  - Emilie Blichfeldt
+  cast:
+  - Lea Myren
+  - Ane Dahl Torp
+  - Thea Sofie Loch Næss
+  imdb_rating: 7.0
+  imdb_url: https://www.imdb.com/title/tt29344903
+
+avatar_fire_and_ash:
+  title: 'Avatar: Fire and Ash'
+  year: 2025
+  synopsis: Jake and Neytiri's family grapples with grief, encountering a new, aggressive Na'vi tribe, the Ash People, who are led by the fiery Varang, as the conflict on Pandora escalates and a new moral focus emerges.
+  directors:
+  - James Cameron
+  cast:
+  - Sam Worthington
+  - Zoe Saldaña
+  - Sigourney Weaver
+  imdb_rating: 7.4
+  imdb_url: https://www.imdb.com/title/tt1757678
+
+jurassic_world_rebirth:
+  title: Jurassic World Rebirth
+  year: 2025
+  synopsis: 'Five years post-Mundo Jurássico: Domínio (2022), an expedition braves isolated equatorial regions to extract DNA from three massive prehistoric creatures for a groundbreaking medical breakthrough.'
+  cast:
+  - Scarlett Johansson
+  directors:
+  - Gareth Edwards
+  imdb_rating: 5.8
+  imdb_url: https://www.imdb.com/title/tt31036941
+
+the_lost_bus:
+  title: The Lost Busy
+  year: 2025
+  synopsis: 'A wayward school bus driver and a dedicated school teacher battle to save 22 children from a terrifying inferno.'
+  directors:
+  - Paul Greengrass
+  cast:
+  - Matthew McConaughey
+  - America Ferrera
+  - Yul Vazquez
+  imdb_rating: 6.8
+  imdb_url: https://www.imdb.com/title/tt21103218

@@ -47,6 +47,7 @@ def call_model_json(
     system_prompt: str,
     user_prompt: str,
     max_attempts: int = 2,
+    timeout: int = 120,
 ) -> Any:
     """Call a configured OpenAI-compatible model and parse JSON output.
 
@@ -62,7 +63,8 @@ def call_model_json(
         User payload for the model.
     max_attempts : int, default=2
         Maximum parsing attempts before raising an error.
-
+    timeout : int, default=120
+        Timeout for the model call.
     Returns
     -------
     Any
@@ -85,7 +87,7 @@ def call_model_json(
                 {"role": "user", "content": user_prompt},
             ],
             response_format={"type": "json_object"},
-            timeout=60,
+            timeout=timeout,
         )
         try:
             content = response.choices[0].message.content or ""

@@ -14,3 +14,5 @@ EVALUATIONS_EXAMPLE_DATA_PATH: "data/evaluations/evaluations.example.csv"
 
 SCORES_DATA_PATH: "data/scores/scores.csv"
 SCORES_EXAMPLE_DATA_PATH: "data/scores/scores.example.csv"
+
+IMDB_METADATA_PATH: "configs/imdb_metadata.yaml"

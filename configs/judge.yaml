@@ -1,8 +1,18 @@
 judge_gpt_4_1_mini:
   api_key_id: 'genplat'
   model: 'gpt-4.1-mini'
-  temperature: 0.7
+  temperature: 1.2
 judge_gpt_4_o:
   api_key_id: 'genplat'
   model: 'gpt-4.1-mini'
-  temperature: 0.7
+  temperature: 1.2
+judge_o3_system_prompt_repetitions_2:
+  api_key_id: 'genplat'
+  model: 'o3'
+  temperature: 1.2
+  system_prompt_repetitions: 2
+judge_o3_user_prompt_repetitions_2:
+  api_key_id: 'genplat'
+  model: 'o3'
+  temperature: 1.2
+  user_prompt_repetitions: 2

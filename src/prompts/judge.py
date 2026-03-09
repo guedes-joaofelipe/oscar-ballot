@@ -12,7 +12,12 @@ class JudgeResponse(pydantic.BaseModel):
     decision: str = Field(description="The decision for why you chose the nominee")
 
 
-def get_judge_voter_prompt(categories: list[dict], votes: list[dict]) -> dict[str, str]:
+def get_judge_voter_prompt(
+    categories: list[dict],
+    votes: list[dict],
+    system_prompt_repetitions: int = 1,
+    user_prompt_repetitions: int = 1,
+) -> dict[str, str]:
     """
     Build prompts for the judge voter.
 
@@ -27,26 +32,6 @@ def get_judge_voter_prompt(categories: list[dict], votes: list[dict]) -> dict[st
     -------
     dict[str, str]
         Prompt dictionary with `system_prompt` and `user_prompt`.
-    """
-
-    system_prompt = """
-    You are a movie expert who helps people vote for the best movies and actors in the Academy Awards.
-    You are given a list of votes from other movie expert voters who have voted for the best nominee in each category
-    and their explanations for why they chose the nominee.
-    Based on the expert votes, you need to decide
-    which is the best nominee in each category
-    and explain why you chose the nominee.
-
-    You must return a json of the best nominee in each category
-    in the following JSON format:
-    {"votes":[{"category_id":"<CATEGORY_ID>","nominee_id":"<NOMINEE_ID>","decision":"<decision>"}]}
-
-    The explanation should be a short decision explanation (no more than 100 words) of why you chose the nominee,
-    pointing out the reasons why you chose the nominee.
-    """
-
-    user_prompt = """
-    Help me decide which is the best nominee in the following categories:
     """
 
     category_prompt = ""
@@ -69,13 +54,39 @@ def get_judge_voter_prompt(categories: list[dict], votes: list[dict]) -> dict[st
         </VOTE>
         """
 
-    user_prompt += f"""
-    The categories are as follows:
-    {category_prompt}
+    system_prompt = ""
+    for i in range(system_prompt_repetitions):
+        if i > 0:
+            system_prompt += "\n" + "--------------------------------" + "\n"
+        system_prompt += """
+        You are a movie expert who helps people vote for the best movies and actors in the Academy Awards.
+        You are given a list of votes from other movie expert voters who have voted for the best nominee in each category
+        and their explanations for why they chose the nominee.
+        Based on the expert votes, you need to decide
+        which is the best nominee in each category
+        and explain why you chose the nominee.
 
-    The expert votes so far are as follows:
-    {expert_votes_prompt}
-    """
+        You must return a json of the best nominee in each category
+        in the following JSON format:
+        {"votes":[{"category_id":"<CATEGORY_ID>","nominee_id":"<NOMINEE_ID>","decision":"<decision>"}]}
+
+        The explanation should be a short decision explanation (no more than 100 words) of why you chose the nominee,
+        pointing out the reasons why you chose the nominee.
+        """
+
+    user_prompt = ""
+    for i in range(user_prompt_repetitions):
+        if i > 0:
+            user_prompt += "\n" + "--------------------------------" + "\n"
+        user_prompt += f"""
+        Help me decide which is the best nominee in the following categories:
+
+        The categories are as follows:
+        {category_prompt}
+
+        The expert votes so far are as follows:
+        {expert_votes_prompt}
+        """
 
     return {
         "system_prompt": system_prompt.strip(),

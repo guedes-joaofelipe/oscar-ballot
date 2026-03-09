@@ -34,7 +34,7 @@ def validate_and_convert_predictions_results(
     return predictions_results
 
 
-def main(run_example: bool = False):
+def main(run_example: bool = False, max_judge_workers: int = 1, max_voter_workers: int = 1):
     """
     Main function to run the predictions.
     """
@@ -51,12 +51,21 @@ def main(run_example: bool = False):
     LOGGER.info(f"Loading judge config from {files_config['JUDGE_CONFIG_PATH']}")
     judge_config = files.load_yaml(files_config['JUDGE_CONFIG_PATH'])
 
+    if files_config.get('IMDB_METADATA_PATH'):
+        LOGGER.info(f"Loading IMDb metadata from {files_config.get('IMDB_METADATA_PATH')}")
+        imdb_metadata = files.load_yaml(files_config['IMDB_METADATA_PATH'])
+    else:
+        imdb_metadata = None
+
     LOGGER.info(f"Running predictions")
     predictions_results_list = predictions.run(
         voters_config=voters_config,
         categories_config=categories_config,
+        imdb_metadata=imdb_metadata,
         judge_config=judge_config,
         api_keys=api_keys,
+        max_judge_workers=max_judge_workers,
+        max_voter_workers=max_voter_workers,
     )
 
     LOGGER.info(f"Validating and converting predictions results")
@@ -75,5 +84,7 @@ def main(run_example: bool = False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run Oscar winner predictions using configured LLM voters and judge.")
     parser.add_argument("--example", action="store_true", help="Run example predictions")
+    parser.add_argument("--max-judge-workers", type=int, default=3, help="Maximum number of judge workers")
+    parser.add_argument("--max-voter-workers", type=int, default=3, help="Maximum number of voter workers")
     args = parser.parse_args()
-    main(run_example=args.example)
+    main(run_example=args.example, max_judge_workers=args.max_judge_workers, max_voter_workers=args.max_voter_workers)
